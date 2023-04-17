@@ -7,13 +7,10 @@
     color: antiquewhite;
     border-radius: 10px;
     font-family: 'Montserrat', sans-serif;
-
-
 }
 
 body {
     background-color: #242424;
-    
 }
 
 .container {
@@ -24,7 +21,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 70%;
+    width: 95%;
+    max-width: 700px;
     padding: 10px;
     display: none;
 }
@@ -34,7 +32,6 @@ body {
     flex-direction: column;
     height: 150px;
     width: 100%;
-    /* border: 1px solid white; */
     justify-content:space-around;
     align-items: center;
     margin: 10px 0;
@@ -54,16 +51,24 @@ body {
 }
 
 .questionNo{
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 8px;
+    padding-bottom: 14px;
+}
+
+.question{
     font-size: 1.5rem;
-    /* border-bottom: 1px solid wheat; */
+    text-align: center;
 }
 
 .name {
-    font-size: 2rem;
+    font-size: 1.5rem;
     border: 1px solid white;
-    padding: 10px;
+    padding: 16px;
     box-shadow: 3px 3px rgb(138, 138, 138);
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: center;
 }
 .all-options {
     margin-top: 8px;
@@ -95,11 +100,10 @@ body {
 }
 
 button, #startBtn{
-    width: 40%;
     margin :10px;
     font-size: 1.5rem;
     color:#242424;
-    padding: 5px 0;
+    padding: 0.8rem;
     background-color:antiquewhite;
 }
 
@@ -120,8 +124,8 @@ button:hover , #startBtn:hover{
     justify-content: center;
     align-items: center;
     margin-top: 50px;
-    /* display: none; */
 }
+
 #quizSetting{
     display: flex;
     flex-direction: column;
@@ -129,7 +133,8 @@ button:hover , #startBtn:hover{
 }
 
 label{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+    font-weight: bolder;
     padding-right:10px ;
 }
 
@@ -141,7 +146,7 @@ option , select, #yourName    {
     outline: none;
     padding: 10px;
     margin: 15px 0;
-    width: 50%;
+    width: 55%;
 }
 
 .setting{
@@ -150,33 +155,28 @@ option , select, #yourName    {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
-    /* justify-content: center;
-    align-content: center; */
-    /* display: none; */
 }
 
 
 .result{
-    font-size: 4rem;
+    font-size: 2.5rem;
     display: flex;
     align-items: center;
-    height: 70vh;
-    /* border: 1px solid wheat; */
+    text-align: center;
+    height: 30vh;
     margin: 20px;
     padding: 20px;
-
 }
 
 .settingOption{
     display: flex;
     align-items: center;
-    justify-content: center;
-
+    justify-content:space-around
 }
+
 
 .setting h1  {
     text-align: center;
-    /* font-size: 3rem; */
 }
 .setting button{
     align-self: center;
